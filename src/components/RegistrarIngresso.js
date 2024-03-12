@@ -204,7 +204,7 @@ const RegistrarIngresso = () => {
     return emailRegex.test(email);
   };
 
-  const c = (e) => {
+  const handleEmailChange = (e) => {
     const email = e.target.value;
     const valid = validateEmail(email);
 
